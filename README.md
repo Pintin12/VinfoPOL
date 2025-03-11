@@ -66,9 +66,9 @@ Para una solucion mas avanzada con una base de datos tambien usaria Unit of work
 
 Por último se han implementado pruebas unitarias para validar el correcto funcionamiento de la aplicación:
 
-PostCommand_CreaPostCorrectamente: Verifica que un usuario pueda publicar un post y que se almacene correctamente.
+PostCommandHandlerTests: Verifica que un usuario pueda publicar un post y que se almacene correctamente.
 
-FollowCommand_SigueCorrectamente: Comprueba que un usuario pueda seguir a otro y que la relación se refleje en el sistema.
+FollowCommandHandlerTests: Comprueba que un usuario pueda seguir a otro y que la relación se refleje en el sistema.
 
-DashboardQuery_RetornaPostsCorrectamente: Asegura que un usuario pueda ver los posts de los usuarios que sigue en orden cronológico.
+DashboardQueryHandlerTests: Asegura que un usuario pueda ver los posts de los usuarios que sigue en orden cronológico.
 
