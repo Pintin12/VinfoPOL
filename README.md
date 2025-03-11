@@ -24,6 +24,7 @@ No instale la libreria Microsoft.Extensions.DependencyInjection, porque el ejerc
 En caso de haber usado DI, mi program estaria de la siguiente manera:
 
  1. Crear la colección de servicios
+    
       var services = new ServiceCollection()
 
 2. Registrar dependencias:
@@ -61,4 +62,13 @@ En caso de haber usado DI, mi program estaria de la siguiente manera:
 
 
 Para una solucion mas avanzada con una base de datos tambien usaria Unit of work para agrupar varias operaciones dentro de una única transacción, asegurando que todas se completen o ninguna se ejecute.
+
+
+Por último se han implementado pruebas unitarias para validar el correcto funcionamiento de la aplicación:
+
+PostCommand_CreaPostCorrectamente: Verifica que un usuario pueda publicar un post y que se almacene correctamente.
+
+FollowCommand_SigueCorrectamente: Comprueba que un usuario pueda seguir a otro y que la relación se refleje en el sistema.
+
+DashboardQuery_RetornaPostsCorrectamente: Asegura que un usuario pueda ver los posts de los usuarios que sigue en orden cronológico.
 
