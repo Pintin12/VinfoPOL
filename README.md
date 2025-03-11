@@ -1,6 +1,6 @@
 # VinfoPOL
 
- Se sigue una arquitectura limpia y modular aplicando varios patrones de diseño:
+ Se sigue una arquitectura limpia y modular aplicando varios patrones de diseño, en visual studio 2019 y .Net Core 3.1:
 
 Mediator Pattern: Centraliza la comunicación entre comandos/queries y sus handlers.
 
